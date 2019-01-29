@@ -1,0 +1,18 @@
+
+An error occurred while loading ./spec/part1_spec.rb.
+Failure/Error: require_relative '../lib/ruby_intro'
+
+SyntaxError:
+  D:/yufeiyan/Tamu学习/课程/CSCE606/hw1/hw-ruby-intro-master/lib/ruby_intro.rb:46: syntax error, unexpected elsif
+  		elsif (arr[head] + arr[tail] > n) 
+  		^~~~~
+  D:/yufeiyan/Tamu学习/课程/CSCE606/hw1/hw-ruby-intro-master/lib/ruby_intro.rb:48: syntax error, unexpected else
+  		else
+  		^~~~
+# ./spec/part1_spec.rb:3:in `require_relative'
+# ./spec/part1_spec.rb:3:in `<top (required)>'
+No examples found.
+
+Finished in 0.00027 seconds (files took 0.11694 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
