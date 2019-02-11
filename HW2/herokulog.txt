@@ -1,0 +1,100 @@
+-----> Ruby app detected
+-----> Compiling Ruby/Rails
+-----> Using Ruby version: ruby-2.4.0
+-----> Installing dependencies using bundler 1.15.2
+       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+       Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.1). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+       Fetching gem metadata from https://rubygems.org/...........
+       Fetching version metadata from https://rubygems.org/..
+       Fetching dependency metadata from https://rubygems.org/.
+       Using rake 12.3.1
+       Using concurrent-ruby 1.0.5
+       Using minitest 5.11.3
+       Using thread_safe 0.3.6
+       Using builder 3.2.3
+       Using erubis 2.7.0
+       Using mini_portile2 2.3.0
+       Using crass 1.0.4
+       Using rack 1.6.10
+       Using mini_mime 1.0.0
+       Using arel 6.0.4
+       Using bundler 1.15.2
+       Using coffee-script-source 1.12.2
+       Using execjs 2.7.0
+       Using thor 0.20.0
+       Using ffi 1.9.23
+       Using temple 0.8.0
+       Using tilt 2.0.8
+       Using multi_xml 0.6.0
+       Using multi_json 1.13.1
+       Using json 1.8.6
+       Using pg 0.21.0
+       Using rails_serve_static_assets 0.0.5
+       Using rails_stdout_logging 0.0.5
+       Using rb-fsevent 0.10.3
+       Using rdoc 4.3.0
+       Using turbolinks-source 5.1.0
+       Using i18n 0.9.5
+       Using tzinfo 1.2.5
+       Using nokogiri 1.8.2
+       Using mail 2.7.0
+       Using coffee-script 2.4.1
+       Using uglifier 4.1.10
+       Using rack-test 0.6.3
+       Using sprockets 3.7.1
+       Using rb-inotify 0.9.10
+       Using httparty 0.16.2
+       Using haml 5.0.4
+       Using rails_12factor 0.0.3
+       Using turbolinks 5.1.1
+       Using sdoc 0.4.2
+       Using loofah 2.2.2
+       Using activesupport 4.2.10
+       Using sass-listen 4.0.0
+       Using themoviedb 1.0.1
+       Using rails-html-sanitizer 1.0.4
+       Using rails-deprecated_sanitizer 1.0.3
+       Using globalid 0.4.1
+       Using activemodel 4.2.10
+       Using jbuilder 2.7.0
+       Using sass 3.5.6
+       Using activejob 4.2.10
+       Using rails-dom-testing 1.0.9
+       Using activerecord 4.2.10
+       Using actionview 4.2.10
+       Using actionpack 4.2.10
+       Using actionmailer 4.2.10
+       Using railties 4.2.10
+       Using sprockets-rails 3.2.1
+       Using coffee-rails 4.1.1
+       Using jquery-rails 4.3.3
+       Using rails 4.2.10
+       Using sass-rails 5.0.7
+       Bundle complete! 18 Gemfile dependencies, 63 gems now installed.
+       Gems in the groups development and test were not installed.
+       Bundled gems are installed into ./vendor/bundle.
+       Bundle completed (3.43s)
+       Cleaning up the bundler cache.
+       Warning: the running version of Bundler (1.15.2) is older than the version that created the lockfile (1.16.1). We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+       The latest bundler is 2.0.1, but you are currently running 1.15.2.
+       To update, run `gem install bundler`
+-----> Installing node-v10.14.1-linux-x64
+-----> Detecting rake tasks
+-----> Preparing app for Rails asset pipeline
+       Running: rake assets:precompile
+       Asset precompilation completed (1.41s)
+       Cleaning assets
+       Running: rake assets:clean
+-----> Detecting rails configuration
+###### WARNING:
+       No Procfile detected, using the default web server.
+       We recommend explicitly declaring how to boot your server process via a Procfile.
+       https://devcenter.heroku.com/articles/ruby-default-web-server
+-----> Discovering process types
+       Procfile declares types     -> (none)
+       Default types for buildpack -> console, rake, web
+-----> Compressing...
+       Done: 45.8M
+-----> Launching...
+       Released v9
+       https://warm-gorge-91697.herokuapp.com/ deployed to Heroku
